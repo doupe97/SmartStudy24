@@ -2,8 +2,8 @@
 
 ### Beschreibung ###
 Dieses Projekt wurde im Rahmen des B. Sc. Moduls <i>Anwendungsprojekt</i> umgesetzt.
-Das Projekt beinhaltet eine vollständige mobile Applikation, in der Unikurse angeboten und gekauft werden können.
-Plattformname: <i>SmartStudy24</i>
+<br>Das Projekt beinhaltet eine vollständige mobile Applikation, in der Unikurse angeboten und gekauft werden können.
+<br>Plattformname: <i>SmartStudy24</i>
 
 ### Umgesetzte Funktionen ###
 - Benutzerregistrierung / -authentifizierung
