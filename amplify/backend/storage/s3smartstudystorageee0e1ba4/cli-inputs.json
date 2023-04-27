@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3smartstudystorageee0e1ba4",
+  "bucketName": "smartstudy-storage-ee0e1ba4",
+  "policyUUID": "9523b4e2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

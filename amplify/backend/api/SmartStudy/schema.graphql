@@ -1,0 +1,75 @@
+type StudyGroup @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  info: String
+  members: [String]
+  imageFileName: String!
+}
+
+type Student @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+  semesterNumber: Int
+  info: String
+  age: Int
+  mainStudyTopic: String
+  firstname: String!
+  lastname: String!
+}
+
+type BookedCourse @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+  courseId: String!
+}
+
+type FavoriteCourse @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+  courseId: String!
+}
+
+type Tutor @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  age: Int!
+  recommendation: Float!
+  info: String!
+  imageFileName: String!
+  topics: [String!]
+  degree: String!
+}
+
+enum TypeCourse {
+  WEBINAR
+  PRESENCE
+}
+
+type CourseLocation @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  street: String
+  streetNumber: String
+  Zip: Zip @hasOne
+}
+
+type Course @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  type: TypeCourse!
+  lessons: Int!
+  lessonsDuration: Int!
+  price: Float!
+  details: String!
+  recommendation: Float!
+  imageFileName: String!
+  CourseLocation: CourseLocation @hasOne
+  Tutor: Tutor @hasOne
+}
+
+type Zip @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  zip: String!
+  city: String!
+}
+ 
