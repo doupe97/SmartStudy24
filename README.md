@@ -1,19 +1,19 @@
 # SmartStudy24
 
-### Beschreibung ###
-Dieses Projekt wurde im Rahmen des B. Sc. Moduls <i>Anwendungsprojekt</i> umgesetzt.
-<br>Das Projekt beinhaltet eine vollständige mobile Applikation, in der Unikurse angeboten und gekauft werden können.
-<br>Plattformname: <i>SmartStudy24</i>
+### Description ###
+This project was implemented as part of the B. Sc. module <i>Application Project</i>.
+<br>The project includes a complete mobile application in which university courses can be offered and purchased.
+<br>Platform name: <i>SmartStudy24</i>
 
-### Umgesetzte Funktionen ###
-- Benutzerregistrierung / -authentifizierung
-- Benutzerprofilverwaltung
-- Kurse / Angebote einsehen und in Favoriten speichern
-- Kurse / Angebote buchen bzw. kaufen
-- Lerngruppen erstellen & beitreten 7 austreten
-- Tutorenübersicht
+### Implemented functions ###
+- User registration / authentication
+- User profile management
+- View courses / offers and save them to favorites
+- Book or buy courses / offers
+- Create & join / leave learning groups
+- Tutor overview
 
-| __Bereich__ | __Verwendete Technologie__ |
+| __Area__ | __Used Technology__ |
 | ---         | ---                        |
 | Frontend    | React Native               |
 | Backend     | AWS Amplify                |
